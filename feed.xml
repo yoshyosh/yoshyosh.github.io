@@ -5,10 +5,21 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2018-02-03T12:25:00-08:00</updated>
+  <updated>2018-02-03T15:42:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Second test post</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/03/second-test-post/"/>
+    <id>http://blog.url.com/2018/02/03/second-test-post/</id>
+    <published>2018-02-03T15:42:00-08:00</published>
+    <updated>2018-02-03T15:42:38-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
   <entry>
     <title>Test Post</title>
     <link rel="alternate" href="http://blog.url.com/2018/02/03/test-post/"/>
