@@ -1,0 +1,135 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+  background: #fcfcfc;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+#yosh-head {
+  margin: 100px auto 50px;
+}
+
+#yosh-head-content {
+  overflow: hidden;
+}
+
+.yosh-contact-meta {
+  color: #9EABB3;
+  text-decoration: none;
+  transition: opacity ease 0.3s;
+  font-family: 'Open Sans', sans-serif;
+  opacity: .5;
+}
+
+.yosh-contact-meta:hover {
+  opacity: 1;
+}
+
+#yosh-logo {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.yosh-logo-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.yosh-main-logo {
+  z-index: 1;
+  max-height: 100px;
+}
+
+.yosh-title {
+  font-size: 2.6rem;
+  letter-spacing: -1px;
+  margin-left: 120px;
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+.yosh-description {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9rem;
+  margin: 4px 0 4px 120px;
+}
+
+.yosh-social-container {
+  margin-left: 120px;
+}
+
+.yosh-post {
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: 1rem auto;
+  padding-bottom: 4rem;
+  word-break: break-word;
+}
+
+.yosh-post-title {
+  margin-bottom: 0;
+}
+
+.yosh-post-title a{
+  color: #3A4145;
+  transition: color ease 0.3s;
+  text-decoration: none;
+}
+
+.yosh-post-title a:hover {
+  color: #57A3E8;
+}
+
+.yosh-post-meta {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #9EABB3;
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px){
+  #yosh-head-content {
+    text-align: center;
+  }
+
+  #yosh-logo {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .yosh-title {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .yosh-description {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .yosh-social-container {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}

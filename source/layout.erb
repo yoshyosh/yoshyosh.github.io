@@ -7,9 +7,12 @@
 
     <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "normalize" %>
+    <%= stylesheet_link_tag "skeleton" %>
+    <%= stylesheet_link_tag "base" %>
   </head>
   <body>
-
+  <div class="container">
     <div id="main" role="main">
       <%= yield %>
     </div>
@@ -36,5 +39,6 @@
         <% end %>
       </ol>
     </aside>
+  </div>  
   </body>
 </html>
