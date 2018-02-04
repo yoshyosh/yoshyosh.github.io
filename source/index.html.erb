@@ -1,13 +1,12 @@
 ---
 pageable: true
-per_page: 50
+per_page: 150
 ---
 
 <div id="yosh-head-content">
         <a id="yosh-logo" href="http://yoshyosh.com"><img src="/images/joesq.jpg" alt="Blog Logo" class="yosh-main-logo yosh-logo-img" style="max-height: 100px;" title="">
         <img src="/images/confessionbear.jpg" alt="Blog Logo Alternate Confession Bear" class="yosh-alt-logo yosh-logo-img" title="" style="">
       </a>
-        <h1 class="yosh-title">Everything I know about product design</h1>
         <p class="yosh-description">Hi there! I'm Joseph Anderson and I'm a Product Designer that's obsessed with SaaS, Rails, Mobile, Marketing, and lentils. I'm currently day dreaming in San Diego, working on <a href="https://www.mightyscout.com">MightyScout</a>, and experimenting with Sales and Marketing from a product design perspective.</p>
         <div class="yosh-social-container">
             <a href="http://www.twitter.com/Anderson760" class="yosh-twitter yosh-contact-meta">
@@ -19,21 +18,10 @@ per_page: 50
         </div>
     </div>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
 <% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <%= strip_summary article.summary(250) %>
-<% end %>
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
+  <div class="post-item">
+    <span class="yosh-post-meta"><%= article.date.strftime('%b %e') %></span>
+    <h2><%= link_to article.title, article %></h2>
+    <%= strip_summary article.summary(250) %>
+  </div>
 <% end %>
