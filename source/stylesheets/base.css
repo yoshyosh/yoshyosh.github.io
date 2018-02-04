@@ -9,9 +9,8 @@ body {
   background: #fcfcfc;
 }
 
-.main-container {
-  margin: 0 auto;
-  max-width: 960px;
+.container {
+  margin: 50px auto;
 }
 
 #yosh-head {

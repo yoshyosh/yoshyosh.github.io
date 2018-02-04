@@ -1,0 +1,28 @@
+---
+
+title: Empathy
+date: 2018-02-04 07:43 UTC
+tags: 
+
+---
+
+As a designer empathy is very important. Being able to take yourself outside of a problem and see it from someone else's perspective is something very few people can do as time goes on. When you work on something for awhile, you start to know it inside and out so it can be hard to look at things from a beginner's perspective. I've always thought that I had a lot of empathy for users particularly around tech.
+
+I am the least technical out of all my friends (computer wise). When it comes to doing something with the computer like backing it up, or finding some obscure file I didn't really have a clue. When I started teaching myself how to code and design I remember how hard it was trying to figure things out. Endless amounts of stackoverflow, stress, and smoothies. So when I see someone new learning how to program or design, I start to feel for them. When I work with a really shitty api, I feel bad for those that have to use it. I always think things can be better.
+
+Recently one of my good friends told me I lack empathy. This wasn't about product, or users, this was about people. He said when assessing situations I don't put myself in others shoes. So I started thinking more about it, and tried to think back to different situations where that might have been.
+
+##Calm
+I think there are a few reasons why it can feel that way. I've been told that I am unnaturally calm by several people. When things happen, for the most part I try to brush them off or not express them too much outwardly by complaining. It's very rare to see me angry about pretty much anything, unless some alcohol is mixed with a bad time.
+
+##Anger
+Remember those characters in TV shows or cartoons that bang tables and get livid over any little thing. Rather than feel the same anger, I would find it humourous. Even though I understand that situation, I didn't understand why someone would react so vividly. It wasn't until I went to lunch with another friend that he explained to me that he can't help it. The example was how he couldn't accept that someone, whose name was spelled "Stefan", would introduce himself to everyone as Steven (something like this). I reacted by saying "What does it matter? He should be able to call himself whatever he wants. It doesn't even impact you as a person, it's just how he wants others to refer to him as."
+
+He said, "That's not the point, it's wrong, that's not how his name is spelled, so Stephen's not his name, so he can't use that."
+
+I really didn't understand what difference it made, and he was definitely getting upset over such a little thing (seemed little to me). This was when I realized that the characters you see in the movies do exist. There are chemicals in the brain that just make you react and feel anger rather than rationalizing and staying calm. It just can't be helped for some people.
+
+##Solve
+I love to solve problems. I'm pretty optomistic that anything can be solved. When we say things are hard, it really just means they take more time. I think this can be an issue when empathizing with others, because rather than sympathizing (which also in turn shows empathy), I usually don't spend much time there and just try to help find the solution. So immediately I'm thinking, if we can some how solve this in any hacky way maybe it gets rid of the problem. It's like a constant assessment of is there a solution or can anything be done? If not, how can we just try to get rid of the negative feelings. What can we tell ourselves to feel better about the situation. There are things that can be done internally and externally so I'm constantly looking for which thing to apply.
+
+Lastly, I don't think things are as big of a deal that we make them to be (kind of ironic in a post where I talk about lacking empathy.) As humans we constantly beat ourselves up over the little things. These little thoughts of what will people think of me, what do they already think of me, can start to eat away at you. For the most part people are too busy thinking of themselves or those same things to have time to think about you. But I think all of these factors add up to how I empathize. I am actively working on being more sympathetic about someone's situation and recognizing these moments. I agree that I can struggle with understanding the context of a social situation. But if I take the time to pause, observe, and think about how to react in that environment I think this can be solved. More observation, less action. This is something to try moving forward, to gain more perspective from the eyes of others.
