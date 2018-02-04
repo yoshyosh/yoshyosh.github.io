@@ -5,37 +5,173 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2018-02-03T15:42:00-08:00</updated>
+  <updated>2018-02-04T00:08:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Second test post</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/03/second-test-post/"/>
-    <id>http://blog.url.com/2018/02/03/second-test-post/</id>
-    <published>2018-02-03T15:42:00-08:00</published>
-    <updated>2018-02-03T15:42:38-08:00</updated>
+    <title>First week as an instructor at Codepath</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/first-week-as-an-instructor-at-codepath/"/>
+    <id>http://blog.url.com/2018/02/04/first-week-as-an-instructor-at-codepath/</id>
+    <published>2018-02-04T00:08:00-08:00</published>
+    <updated>2018-02-04T00:08:53-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Last time I wrote one of these it was about learning mobile in 8 weeks. I wrote three posts about the first three weeks but I did end up finishing the course last year. This year I am teaching the iOS For Designers course at Codepath. Here are the challenges, realizations, and things I think about while preparing to go through this.&lt;/p&gt;
+
+&lt;p&gt;When Tim and Nathan told me about the opportunity I was really excited. I know that it is going to be a lot of work, but helping designers build products in mobile is something that is very important.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s not just about teaching them mobile, but how you teach them. The students are very talented working at companies like thoughtbot, Lyft, Uber, Pinterest, and more. They are very smart and determined, so for the most part they will find their way just due to the nature of who they are. I see my role as simplifying concepts as much as possible to make it easier for them to understand so much content quickly. Things like analogies, and pacing become extremely important so we don&amp;rsquo;t expose too much too soon. This can be tough when people have varying skill levels and crave a deeper technical understanding. But there is a method to our madness. There is so much material to cover in such a short amount of time, and it can be frustrating running into any bumps a long the way.&lt;/p&gt;
+
+&lt;p&gt;Looking at past videos and preparing before hand has helped a lot. I am learning more and more just by teaching the class. The students have a lot of questions on things you might not have thought very deeply about. This is great because we can then discuss or look into it more.&lt;/p&gt;
+
+&lt;p&gt;During our first lab class they were very determined to finish the exercise. While trying to wrap things up and conclude the class they just kept on working. I had to ask them to close their laptops. Again I attribute this to who they are and why they signed up for the class. By being selective and bringing in this group of people you really start to see something special. A lot of them go above and beyond what is asked of them and are just eager to learn more and more. It is pretty inspiring. Some of the personal stories I&amp;rsquo;ve heard so far are motiviating as well. I hope once they graduate, they will be able to share some of these with future students and the community.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>At least you get paid for it</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/at-least-you-get-paid-for-it/"/>
+    <id>http://blog.url.com/2018/02/04/at-least-you-get-paid-for-it/</id>
+    <published>2018-02-04T00:07:00-08:00</published>
+    <updated>2018-02-04T00:07:45-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;As I was walking to work in SOMA Friday morning I saw a guy carrying some drift wood. I didn&amp;rsquo;t think much of it, but as I passed he asked me if I knew of a good place for breakfast. I told him about a spot near my work and that it wasn&amp;rsquo;t too far away. Since it was along the way to work we started talking. He mentioned that the drift wood was for a painting he planned on making.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I just got it from Ocean Beach. The drift wood serves as the frame of the canvas, and I like to draw portraits within that&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;He then mentioned that he was from Pennsylvania and had to get out here to do art. &amp;ldquo;I feel so limited being over there, like I would have to give up a lot just to get where I want to be.&amp;rdquo; That&amp;rsquo;s when he mentioned that still after 4 years he doesn&amp;rsquo;t feel like he&amp;rsquo;s broken through. It&amp;rsquo;s the classic scenario of an artist knowing where they want their work to be and feeling the gap between that and where they are. &amp;ldquo;I pick up odd jobs every now and then. I&amp;rsquo;ve found some construction gigs from time to time. What do you do for work?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I told him I felt the same way about doing design and building products. I&amp;rsquo;ve been doing it for a few years now and still feel that gap. So I told him I know how it feels putting in so much effort and still not seeing certain results. I told him it was really fun though and that&amp;rsquo;s why we continue to do it regardless of how hard it is. That&amp;rsquo;s when he dropped the bomb on me.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;At least you get paid for it. With art, it&amp;rsquo;s really hard to make a career out of it, there aren&amp;rsquo;t many venues for that.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Art is truly a passion driven hobby. For the lucky few, they get to make it a career. I feel what we do is a little like art but more because we use a lot of creativity to solve problems. We get to do this every single day not having to worry about how to sustain it, only how to sustain and continue to improve our skills. So no matter how hard it is, what walls you hit along the way, and how frustrating some things can be, don&amp;rsquo;t forget that at least you get paid for it.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Disappearing Pixels</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/disappearing-pixels/"/>
+    <id>http://blog.url.com/2018/02/04/disappearing-pixels/</id>
+    <published>2018-02-04T00:06:00-08:00</published>
+    <updated>2018-02-04T00:07:18-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I&amp;rsquo;ve been thinking a lot about being a designer in this day and age. With things like Oculus Rift, Apple Watch, Bitcoin, and Mobile leading new tech trends, I constantly think about where we stand.&lt;/p&gt;
+
+&lt;p&gt;I think a designer&amp;rsquo;s job is to make things understandable and usable. For example, in the case of Bitcoin, a consumer doesn&amp;rsquo;t need to know how it works, just like they don&amp;rsquo;t need to know how browsers or TCP/IP works. As a designer, we start with the user first then work backwards towards the technology.&lt;/p&gt;
+
+&lt;p&gt;Currently I work a lot on marketing, front-end, and mobile. It&amp;rsquo;s nice being able to build rather than just purely design. I think design is the most fun, but so is seeing ideas you have come to fruition. I constantly go back and forth and wonder if being a jack of all trades vs purely a designer was the correct choice to make.&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;rsquo;s important to be able to build something from the ground up, or atleast have a good friend that doesn&amp;rsquo;t mind working with you on any idea you may have. This became more clear as I work on a side project that doesn&amp;rsquo;t involve pixels really. It&amp;rsquo;s an app that let&amp;rsquo;s you know when new Netflix movies come out. It primarily lives on the push notification layer, with maybe one view if you swipe into the app. If I could only design things and not build, I could spend a day mocking up a bunch of different screens. I could get into gestures, and transitions. But the core function of the app is letting a user know when a new movie has come out that they might be interested in. Text can be pretty sufficient. Imagine a white screen with a simple title and description. That will do the job. You could then add things like, watch later, remind me later, watch trailer, a nice image from imdb, actors, etc. As someone who just designs, I could see myself going out of control on those different aspects. Adding feature after feature, getting things nice visually. But at the end of the day, being notified that a new movie is out is the core problem to solve.&lt;/p&gt;
+
+&lt;p&gt;So what if we thought about how we could reduce as many visual elements as possible. If we just used the stock push notification, with its limited characters, what becomes important? The title? The rating? The description? How much can you fit in that little space? When should you send the push notification? How can you get better at sending the right push notification?&lt;/p&gt;
+
+&lt;p&gt;A lot of the fun comes from exploring these aspects and seeing the product come to life. Seeing your phone light up with a test notification. Then doing an api request and seeing a list of movies as a JSON response. Finally seeing one of those movies show up in the push notification. At this point, we still haven&amp;rsquo;t designed any pixels, yet 90% of the functionality is there.&lt;/p&gt;
+
+&lt;p&gt;I think a lot of apps and experiences in the future will have these attributes as well. If you think about the watch, beacons, bitcoin, etc. Interfaces can be invisible. We can be prompted purely by vibrations from the watch, a quick message on the screen that you&amp;rsquo;re near something important, or confirmations that a trade was made successfully (either visually, or physically through vibrations, or sound).&lt;/p&gt;
+
+&lt;p&gt;As a designer in this day and age, we have access to a lot more inputs and outputs that aren&amp;rsquo;t visual at all. The pixels start to disappear and it becomes more important to experiement with experiences. I believe being able to build to get to that stage becomes even more important, since it allows us to feel and experience what we imagine in our daily lives.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>1 Day in Milan</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/1-day-in-milan/"/>
+    <id>http://blog.url.com/2018/02/04/1-day-in-milan/</id>
+    <published>2018-02-04T00:02:00-08:00</published>
+    <updated>2018-02-04T00:02:18-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html"></content>
   </entry>
   <entry>
-    <title>Test Post</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/03/test-post/"/>
-    <id>http://blog.url.com/2018/02/03/test-post/</id>
-    <published>2018-02-03T12:25:00-08:00</published>
-    <updated>2018-02-03T15:09:02-08:00</updated>
+    <title>4 days in New York</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/4-days-in-new-york/"/>
+    <id>http://blog.url.com/2018/02/04/4-days-in-new-york/</id>
+    <published>2018-02-03T23:49:00-08:00</published>
+    <updated>2018-02-03T23:58:43-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h1&gt;Test Post right?&lt;/h1&gt;
+    <content type="html">&lt;p&gt;It was super cold. It’s 50 degrees normally around this time of the year. We were greeted with rain and 25-35 degree weather. After getting out of the plane we met up with Andrew at the next terminal. Then we had to figure out how to get downtown to our apartment. The air train was out of order that day so we decided to just Uber, it costed around $60.&lt;/p&gt;
 
-&lt;p&gt;All the things I have to say here. Also here when I think &lt;code&gt;right here&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"JavaScript syntax highlighting"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+&lt;p&gt;Our place was really nice. Now I see what a fully furnished house can look like. It was in the lower eastside of Manhattan, only a 20 minute subway ride to Times Square.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://www.dropbox.com/s/6i41k13wu3o1w97/NYairbnb.jpg?raw=1" alt="New York Apartment" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I made that ride the next day since one of my coworkers was giving a talk at Yahoo. I had to do a double take after seeing that their office was pretty much at Times Square. It was really awe-inspiring to see the huge buildings, neon lights, and jumbo screens all over the place.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://www.dropbox.com/s/pqozheqam8trh4p/NYtimessquare.jpg?raw=1" alt="Times Square" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I immediately met up with JP to help out with the talk. They served us New York pizza which was really good. That’s another thing I noticed here. There are a lot of $1 pizza shops, it’s like a race to the bottom in pricing. Overall things felt equivalent to what we pay in San Francisco, besides the pizza. In SF it costs about 20-35$ for a fully loaded pizza. After the talk we met with more of the Yahoo engineers and saw some of their secret alcohol stash including Absinthe. Then I met up with more friends in Japan town on the east side and had some yakitori at an izakaya.&lt;/p&gt;
+
+&lt;p&gt;Below our apartment was a dumpling place that was really good. It only costs about 25 cents a dumpling so we ordered a ton. A full meal that fed 4 people only cost $14.&lt;/p&gt;
+
+&lt;p&gt;On Tuesday I spent a lot of time at my grandmas house in Rye. I went to grand central station which was really cool. Theres like 50 trains that run through there or something, it was very nice. They have a lot of shopping and restaurants in there as well. While in Rye I also met with my Uncle. We had dinner out in Porchester (this is all north of downtown NYC). It’s very interesting learning about the problems non technical companies face. There were more talks about insurance, housing, mortgages, non-profits, and grants than the usual consumer facing stuff. Overall it&amp;rsquo;s exciting times to be a technologist.&lt;/p&gt;
+
+&lt;p&gt;My uncle dropped me off at the train station with seconds to spare to catch the one back to Grand Central station. I immediately went to meet up for dinner &amp;amp; drinks with some really good iOS developers. We went to Distilledny and Tribeca Tavern. Dinner was paid for courtesy of Yahoo! Then we went to get drinks and those were paid for by Realm. I ended up getting a little lost on my way back with my phone dying. It was really cold, I don’t know why I decided to try to walk back haha. Some how I kept ended up further south than where the apartment was. It was nice strolling through the city at that time though. Thankfully when I got home Andrew was still awake and let me in.&lt;/p&gt;
+
+&lt;p&gt;Our last day in New York was fairly relaxing. I just had a meeting at 1pm so we got a quick lunch at one of the top 10 ramen restaurants (based on Tokyo ratings).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://www.dropbox.com/s/buh33faswpkz1hz/NYramen.jpg?raw=1" alt="Ramen in New York" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The portion size was small but perfect for a first meal. This place was half a block from our house. Kevin did a really good job picking the place, because it had everything we needed. We then went to our local coffee shop and got some tea. I did a quick google hangout to catchup on some work. Then I started preparing my slides for the talks I will do in Europe and Japan. The coffee shop was getting a little cramped and distracting so we ended up getting a breather.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://www.dropbox.com/s/vpvxosxssuybzvm/NYbreather.jpg?raw=1" alt="Friends in New York Breather" /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s basically a room for working/resting and the one we ended up getting was on the 28th floor of the Trump Building on Wall street! It cost about $25/hr.&lt;/p&gt;
+
+&lt;p&gt;With our flight at 8:30pm we started our way to Brooklyn via train. It took about an hour and a half. By that time we were pretty hungry so we got our tickets and through security. I still had to sign my passport haha. At this time we met up with the rest of the group, 9 of us so far. We ended up eating at this american style take out diner. I had some nachos, buffalo wings, and a ceaser salad.&lt;/p&gt;
+
+&lt;p&gt;We saw a few other people who got the $200 flight deal, and gave our secret hand shakes. Now I’m 1 &amp;frac12; hours away from landing in Milan. I still haven’t slept, its 3:45am New york time, 9:45am Milan. I will probably be very tired but its also very exciting.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Wildcard might have a bad time</title>
+    <link rel="alternate" href="http://blog.url.com/2018/02/04/wildcard-might-have-a-bad-time/"/>
+    <id>http://blog.url.com/2018/02/04/wildcard-might-have-a-bad-time/</id>
+    <published>2018-02-03T23:46:00-08:00</published>
+    <updated>2018-02-03T23:49:09-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I&amp;rsquo;ve been a fan of &lt;a href="http://trywildcard.com/"&gt;Wildcard&lt;/a&gt; before it launched. The concept of cards on mobile is a very powerful one. There is just so much context when presented that way. It&amp;rsquo;s also consistent with different forms of content. Think about mobile apps that have top navigation with back buttons and actions on the top right. Over time, this becomes memorable and usable for users even as they use different apps.&lt;/p&gt;
+
+&lt;p&gt;Wildcard is aiming to build a new browser that solely relies on this card concept. They are currently positioning themselves as a place to search for news, shop for gear, find a bar, or see whats trending. That is a lot of things to have in mind when thinking about when to use the app.&lt;/p&gt;
+
+&lt;h2&gt;Search for news&lt;/h2&gt;
+
+&lt;p&gt;Since that is the first item they mention during onboarding I think that is what they believe to be the most incentivizing. Also with the trending feature, it helps back that up, with over a third of the UI devoted soley to that. News can be tough since there are so many sources we normally get our news from. Also rather than searching for news, I think a majority of us discover it from aggregate sources such as the New York Times, Tabloid sites, tech specific sites, socially through FB/Twitter, and more.&lt;/p&gt;
+
+&lt;p&gt;Upon first use, with the different UI, you don&amp;rsquo;t even think of it as a browser. Search is prominent at the top, along with trending searches. But the cards make it feel very different than what you are used to with a normal browser. When doing a search on a person, there is a lot of potential with choosing what content to surface. It could be their social profiles, any news about them, photos, and more. All in very digestible cards rather than stale links.&lt;/p&gt;
+
+&lt;p&gt;Google is really good at this with serving up accurate results. Twitter is good at real time results (your visceral reaction to check it when anything big happens.) News aggregation sites are also good at their respective verticals. So this becomes challenging when Wildcard is focused on design as the competitive advantage. Their respective competitors are strong at data and community. Wildcard is still young on this front, but I think it&amp;rsquo;s a key piece that will have to be solved to keep it on par with existing solutions. I don&amp;rsquo;t think design will be enough for news.&lt;/p&gt;
+
+&lt;h2&gt;Shop for gear&lt;/h2&gt;
+
+&lt;p&gt;When shopping for most things, particularly gear, I think Amazon comes to mind. They have good prices, customer service, reviews, and your existing credit card. When you think of needing to buy something, they are one of the first places you go. Wildcard adds an extra step since they would then show you a card that you can scroll through to find your item. Overtime they should be able to show you multiple destinations to buy things, and also make them more seamless to purchase. The biggest challenge here is the way consumers think about buying things. There are specific sites that do this very well, and usually help people find the thing they were looking for. It also becomes habit depending on what you are buying. Wildcard&amp;rsquo;s strengths here could be in the card results they serve when you are searching for an item. Because not only are you looking to buy it i.e. a camera, but you want to learn more about it before you make that decision. Here is where cards can help you come to that conclusion before you buy.&lt;/p&gt;
+
+&lt;h2&gt;Find a bar&lt;/h2&gt;
+
+&lt;p&gt;Finding anything around you to go for a drink or food is perfect for mobile. Yelp and Foursquare are battling intensely on this and have significant mindshare. Foursquare is using smart push notifications to engage users while they are at venues. While Wildcard&amp;rsquo;s UI can definitely support this use case, I&amp;rsquo;m not sure a browser is the first thing someone thinks of using to find these things given the other options. There is a subset of searches that are used, mostly to find these places directly vs discover. Discover vs search starts to become a theme when discussing how the product can be used.&lt;/p&gt;
+
+&lt;h2&gt;See whats trending&lt;/h2&gt;
+
+&lt;p&gt;So far this seems to be one of the stronger things that Wildcard has. They devote a significant amount of the home real estate to this, and the articles that it shows you when you do choose a trending category are comprehensive. So while they may not have the massive data capabilities that Google or other long standing search engines have, this recently surfaced content is on equal grounds. The question then becomes if this can be made into a habit that people constantly use and check. I do think there is a subset of people that always want to stay up to date on the latest happenings, and love clicking trending hash tags. While it could get usage, I&amp;rsquo;m not sure if it would align with going to Wildcard to find/search for things but rather going to Wildcard to discover things. Those are two different ways of finding something, which result in somewhat different business models as well.&lt;/p&gt;
+
+&lt;p&gt;It would be interesting to see how the non tech crowd thinks of these types of search queries overall, and how they perform them today. Although they are used to the blue and green google interface, cards can be more user friendly with actionable items.&lt;/p&gt;
+
+&lt;h2&gt;Challenging&lt;/h2&gt;
+
+&lt;p&gt;Battling on all these fronts, Wildcard is definitely ambitious. By being broad it&amp;rsquo;s a double edge sword. While the market can be enormous, the adoption is difficult. With mobile, users are getting more and more used to assigning each app with a job to be done. By going broad, it&amp;rsquo;s hard to gain mindshare for what your app should be used for by the user. Wildcard is positioning itself to be the next Google. Although they are rethinking the browser I think a lot of the value comes from the contextual search/discovery they can provide. They also mention not wanting to charge a % of purchase from the browser, and with 95% of Google&amp;rsquo;s revenues coming from ads, actionable cards can potentially be even more valuable.&lt;/p&gt;
+
+&lt;p&gt;One thing they are doing differently early on is investing in developers to add cards to the platform. While that is great to see I think their biggest challenge will be in getting users to regularly use the product and think of them first for all of their search queries or discovery needs.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a reason why a lot of us use vertical specific apps instead of a browser today. I do think their messaging is relying heavily on the fact that they have card ui, which focuses on the what rather than the why. Wildcard is in its earliest stages and I think we will see a lot happen as it settles on different strategies to use to go to market.&lt;/p&gt;
+</content>
   </entry>
 </feed>

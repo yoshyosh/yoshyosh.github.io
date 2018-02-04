@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blog Title - Learning iOS: Week 2/7 Homework</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="/stylesheets/normalize.css" rel="stylesheet" />
+    <link href="/stylesheets/skeleton.css" rel="stylesheet" />
+    <link href="/stylesheets/base.css" rel="stylesheet" />
+  </head>
+  <body>
+  <div class="container">
+    <div id="main" role="main">
+      <p>http://stackoverflow.com/questions/1785008/keeping-a-uibutton-selected-after-a-touch</p>
+
+<p>Creating a login page 
+Detecting form field validation 
+Loading states for feed view 
+Modal view slide ups 
+UIScrollView for more content 
+Alert and action views</p>
+
+<p>Wooooot! Week 2 and I am already tasting how close we are to building a full app. This week&rsquo;s homework focused a lot on adding some transition logic to our app. Things like incorrect password, transitions if it is correct, scroll views so you can scroll through a lot of content, and using loading indicators with time delays to present content.</p>
+
+<p>There were a few hiccups while getting through the homework. I still have questions on things like button state. When you tap a button it goes into the highlighted state, but I need it to stay in that state while we check for the correct username and password. I&rsquo;m still not sure how to do this, so I will check in with the mentors and report back.</p>
+
+<h2>How to create &amp; use functions with performSelector</h2>
+
+<p>I also learned how to use performSelector. In the web, I could just make functions in javascript and call them by first creating a function</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>function anExampleFunction(){
+}
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Then calling it anywhere in the code like this: <code>anExampleFunction();</code></p>
+
+<p>But in Objective-C, first you need to create the function:</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>- (void)anExampleFunction:(id)sender {
+}
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Then to make it run, you need to put it in the viewDidLoad section (this is equivalent to document.ready) and run it like this:</p>
+
+<p><code>[self performSelector:@selector(anExampleFunction:) withObject:nil afterDelay:0];</code></p>
+
+<p>So you can see how much more verbose this is and possibly confusing. Let&rsquo;s start by explaining</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>- (void)anExampleFunction:(id)sender {
+}
+</pre></td></tr></tbody></table></code></pre></div>
+<p><code>- (void)</code> is the return type. In objective-C, you have to be religious about what types you are returning, like when you create a variable, or a function to return a variable. The cool thing about - (void) (doesnt matter if it has a space between the dash) is that it literally returns void, or nothing. So this is what you do when you want to just perform some actions but not return any value.</p>
+
+<p>anExampleFunction is just the name of your function. You should try to keep the naming conventions very descriptive just like Objective-C does with its methods. So for example, if you are checking a password, literally call it checkLoginPassword. The colon at the end is similar to the () in a javascript function, where you will place the object/variable to be passed into this function. Think of it like if I was making a list of items you will need for a camping trip: 
+1. Wood 
+2. Food</p>
+
+<p>The colon after camping trip: signifies the beginning of what is needed.</p>
+
+<p><code>(id)sender</code> is a wildcard type. It basically says, accept any type of object and dynamically figure out what it is. Sender is the object that invoked this function, you will see this being a lot more useful in things like a table view list of things to bring on a camping trip. When you tap any of those items maybe a screen would slide in giving you more details. By using sender, we will know exactly which object was tapped and be able to get all the properties from it such as the name of the item, its position relative to the rest of the list, etc.</p>
+
+<p><code>[self performSelector:@selector(anExampleFunction:) withObject:nil afterDelay:0];</code></p>
+
+<p>So here, the [] is syntax to tell the compiler to run this function with these methods. Its equivalent to doing something like:</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>user.firstname
+[user firstname]
+</pre></td></tr></tbody></table></code></pre></div>
+<p>In Objective-C you use self alot so you can tell the compiler what object you are performing this method on. In this case, self would be referring to the FeedViewController, or the feed view. You can think of it as a container for all of the things happening in your feed, since you are building the posts inside of it. The main parent, the big daddy, you get the picture.</p>
+
+<p><code>performSelector</code> is just a method that says perform this selector, I think objective-C likes to call what we are used to calling functions, selectors.</p>
+
+<p><code>anExampleFunction:</code> function name and the colon that makes it capable of accepting objects</p>
+
+<p><code>withObject:nil</code> this is where we put a single object that we want to pass. If you want to pass multiple objects, you need to put them in a NSDictionary or NSArray, then loop through them in your function.</p>
+
+<p><code>afterDelay:0</code> is measured in seconds. So you can put a delay on how long it takes before this line of code will run.</p>
+
+<p>With all of these combined, you can now do a ton of stuff. You can chain a bunch of functions based on eachother, and just make the code cleaner and more usable. Functions are a great way to keep your code dry and increase resuability. <code>willHideKeyboard</code> and <code>willShowKeyboard</code> are good examples of this. There are many times you will need to control the keyboard functionality, these functions will help you use them wherever necessary.</p>
+
+<h2>UIScrollView</h2>
+
+<p><code>UIScrollView</code> caused me some trouble because there are so many things that are automatically moved and changed with it. I still don&rsquo;t understand why things shift around automatically. I had to reset the positions of X and Y for both the scrollview and contained view to 0. I also needed to turn off autolayout in the &ldquo;Show file inspector&rdquo; for the scrollview.</p>
+
+<h2>For Control Events</h2>
+
+<p>Detecting when there is a change in text field </p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>[self.emailTextField addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventEditingChanged];
+</pre></td></tr></tbody></table></code></pre></div>
+<p>This was a little confusing at start. The code above is short form for one of the few control events that happen on a textfield. It will get the job done but there is a better way to handle event delegation.</p>
+
+<p>What is event delegation? It&rsquo;s literally what do you delegate something to do when an event happens. For example, if there is a change in the textfield, first we need to register that there was an event (the change in the textfield) and delegate (tell a function) what should be done when that happens.</p>
+
+<p><code>self.emailTextField.delegate = self;</code></p>
+
+<p>This tells the code to start listening to all of the events that happen on this emailTextField and listen to them on the parent view controller. Now we still have to do one more step, we have to tell the parent view controller to listen to these events. In the LoginViewController.h file:</p>
+
+<p><code>@implementation LoginViewController : UIViewController &lt;UITextFieldDelegate&gt;</code></p>
+
+<p>Now if you cmd + click the UITextField class in the LoginViewController.m file and scroll down you will see this:</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField;        // return NO to disallow editing.
+- (void)textFieldDidBeginEditing:(UITextField *)textField;           // became first responder
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField;          // return YES to allow editing to stop and to resign first responder status. NO to disallow the editing session to end
+- (void)textFieldDidEndEditing:(UITextField *)textField;             // may be called if forced even if shouldEndEditing returns NO (e.g. view removed from window) or endEditing:YES called
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;   // return NO to not change text
+- (BOOL)textFieldShouldClear:(UITextField *)textField;               // called when clear button pressed. return NO to ignore (no notifications)
+- (BOOL)textFieldShouldReturn:(UITextField *)textField;              // called when 'return' key pressed. return NO to ignore.
+</pre></td></tr></tbody></table></code></pre></div>
+<p>These are all of the delegated functions we now have access to when an event happens. So all we simply do is take something like: </p>
+
+<p><code>- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;</code></p>
+
+<p>And place it in LoginViewController.m and we will know everytime a change in that text field happens. This allows us to do things like check for the correct password, or do any form validation/button enabling and disabling while the user is typing in the form fields.</p>
+
+<p>Test it with this:</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string 
+{
+NSLog(@"Text is being changed"); 
+
+}
+</pre></td></tr></tbody></table></code></pre></div>
+<p>So every class object has certain delegate events. Like <code>UIScrollView</code> has a lot that are precise on when you start scrolling, scroll to top, etc. This can be used to hide and show navigation bars to give the user more viewing space while scrolling, but still reveal navigation on a certain directional scroll. Delegates are incredibly powerful, they are literally like your javascript event delegation that you oh so love.</p>
+
+<h2>Custom Tap Events</h2>
+
+<p>http://stackoverflow.com/questions/19218080/tap-gesture-not-recognized-on-uiimageview</p>
+
+<p>Here you are creating a gesture to track, in this case tap. After you assign that gesture to be tracked on let&rsquo;s say a UIImage, when you tap the UIImage, then it should perform the selector you assigned to that tap.</p>
+
+<p>So this is similar to using performSelector&rsquo;s and the delegate explained above.</p>
+
+<h2>Modal Views &amp; Screen Transitions</h2>
+
+<p><img src="http://i.imgur.com/4wESHoK.gif" alt="Mobile view flipping like a card" /></p>
+
+<p><img src="http://i.imgur.com/KpX7FcB.gif" alt="Mobile view sliding up another view on tap" /></p>
+
+<p><img src="http://i.imgur.com/m0Mn9DU.gif" alt="Mobile view fading out and in" /></p>
+
+<p>As cool as they look, they are actually much easier to implement than you would think (coming from an HTML/CSS/JS background).</p>
+
+<p>First you initialize the view that you will be showing 
+<code>UIViewController *vc = [[UIViewController alloc] init];</code></p>
+
+<p>Then you set the modal transition property on this view 
+<code>vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;</code></p>
+
+<p>Then you just invoke that action 
+<code>[self presentViewController:vc animated:YES completion:nil]</code></p>
+
+<p>3 lines of code for all of that awesomeness.</p>
+
+<h2>UIAlert and Action Views</h2>
+
+<p>Finally UIAlert and UIAction Views are great ways to get user input or to slow a user down if they have done something and need to be notified. You literally just create a UIAlert or Action by first initializing it:</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Incorrect Password" message:@"The password you entered is incorrect. Please try again." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Then calling it where need be 
+<code>[alertView show]</code></p>
+
+<p>This week of the homework literally shows you how to piece together an application. Next week will deal with custom data so we can start customizing the feed and views rather than it just being static.</p>
+
+    </div>
+
+    <aside>
+      <h2>Recent Articles</h2>
+      <ol>
+          <li><a href="/2018/02/04/first-week-as-an-instructor-at-codepath/">First week as an instructor at Codepath</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/at-least-you-get-paid-for-it/">At least you get paid for it</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/disappearing-pixels/">Disappearing Pixels</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/1-day-in-milan/">1 Day in Milan</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/4-days-in-new-york/">4 days in New York</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/wildcard-might-have-a-bad-time/">Wildcard might have a bad time</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/communication/">Communication</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/empathy/">Empathy</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/meeting-a-specialist/">Meeting a specialist</a> <span>Feb  4</span></li>
+          <li><a href="/2018/02/04/the-100-bet-to-blog/">The $100 bet to blog</a> <span>Feb  4</span></li>
+      </ol>
+
+      <h2>Tags</h2>
+      <ol>
+      </ol>
+
+      <h2>By Year</h2>
+      <ol>
+          <li><a href="/2018/">2018 (38)</a></li>
+      </ol>
+    </aside>
+  </div>  
+  </body>
+</html>
