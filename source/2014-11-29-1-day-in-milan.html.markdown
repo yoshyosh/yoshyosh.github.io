@@ -14,7 +14,7 @@ Once we got to the house, it was pretty amazing. First we entered through these 
 
 ![First room in Milan](https://www.dropbox.com/s/j9wc0hclwls5uda/milanRoom1.jpeg?raw=1)
 
-![Second room in Milan](https://www.dropbox.com/s/j9wc0hclwls5uda/milanRoom2.jpeg?raw=1)
+![Second room in Milan](https://www.dropbox.com/s/sdncav36ulwk86j/milanRoom2.jpeg?raw=1)
 
 It was on the 4th floor and had a ton of books. There was a wall of wines also available that we could get for 10 Euro each. We immediately popped open a few and prepared to go out for the day.
 

@@ -11,6 +11,10 @@ body {
   line-height: 1.6em;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
