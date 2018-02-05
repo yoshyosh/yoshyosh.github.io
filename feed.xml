@@ -5,16 +5,16 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2018-02-04T00:08:00-08:00</updated>
+  <updated>2015-02-07T00:08:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
     <title>First week as an instructor at Codepath</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/first-week-as-an-instructor-at-codepath/"/>
-    <id>http://blog.url.com/2018/02/04/first-week-as-an-instructor-at-codepath/</id>
-    <published>2018-02-04T00:08:00-08:00</published>
-    <updated>2018-02-04T00:08:53-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/first-week-as-an-instructor-at-codepath/"/>
+    <id>http://blog.url.com/first-week-as-an-instructor-at-codepath/</id>
+    <published>2015-02-07T00:08:00-08:00</published>
+    <updated>2018-02-04T16:20:10-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -31,10 +31,10 @@
   </entry>
   <entry>
     <title>At least you get paid for it</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/at-least-you-get-paid-for-it/"/>
-    <id>http://blog.url.com/2018/02/04/at-least-you-get-paid-for-it/</id>
-    <published>2018-02-04T00:07:00-08:00</published>
-    <updated>2018-02-04T00:07:45-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/at-least-you-get-paid-for-it/"/>
+    <id>http://blog.url.com/at-least-you-get-paid-for-it/</id>
+    <published>2015-02-07T00:07:00-08:00</published>
+    <updated>2018-02-04T16:20:08-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -53,10 +53,10 @@
   </entry>
   <entry>
     <title>Disappearing Pixels</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/disappearing-pixels/"/>
-    <id>http://blog.url.com/2018/02/04/disappearing-pixels/</id>
-    <published>2018-02-04T00:06:00-08:00</published>
-    <updated>2018-02-04T00:07:18-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/disappearing-pixels/"/>
+    <id>http://blog.url.com/disappearing-pixels/</id>
+    <published>2014-12-30T00:06:00-08:00</published>
+    <updated>2018-02-04T15:42:18-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -79,10 +79,10 @@
   </entry>
   <entry>
     <title>1 Day in Milan</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/1-day-in-milan/"/>
-    <id>http://blog.url.com/2018/02/04/1-day-in-milan/</id>
-    <published>2018-02-04T00:02:00-08:00</published>
-    <updated>2018-02-04T00:11:10-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/1-day-in-milan/"/>
+    <id>http://blog.url.com/1-day-in-milan/</id>
+    <published>2014-11-29T00:02:00-08:00</published>
+    <updated>2018-02-04T17:10:18-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -94,7 +94,7 @@
 
 &lt;p&gt;&lt;img src="https://www.dropbox.com/s/j9wc0hclwls5uda/milanRoom1.jpeg?raw=1" alt="First room in Milan" /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.dropbox.com/s/j9wc0hclwls5uda/milanRoom2.jpeg?raw=1" alt="Second room in Milan" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.dropbox.com/s/sdncav36ulwk86j/milanRoom2.jpeg?raw=1" alt="Second room in Milan" /&gt;&lt;/p&gt;
 
 &lt;p&gt;It was on the 4th floor and had a ton of books. There was a wall of wines also available that we could get for 10 Euro each. We immediately popped open a few and prepared to go out for the day.&lt;/p&gt;
 
@@ -121,10 +121,10 @@
   </entry>
   <entry>
     <title>4 days in New York</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/4-days-in-new-york/"/>
-    <id>http://blog.url.com/2018/02/04/4-days-in-new-york/</id>
-    <published>2018-02-03T23:49:00-08:00</published>
-    <updated>2018-02-03T23:58:43-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/4-days-in-new-york/"/>
+    <id>http://blog.url.com/4-days-in-new-york/</id>
+    <published>2014-11-20T23:49:00-08:00</published>
+    <updated>2018-02-04T16:00:52-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -163,10 +163,10 @@
   </entry>
   <entry>
     <title>Wildcard might have a bad time</title>
-    <link rel="alternate" href="http://blog.url.com/2018/02/04/wildcard-might-have-a-bad-time/"/>
-    <id>http://blog.url.com/2018/02/04/wildcard-might-have-a-bad-time/</id>
-    <published>2018-02-03T23:46:00-08:00</published>
-    <updated>2018-02-03T23:49:09-08:00</updated>
+    <link rel="alternate" href="http://blog.url.com/wildcard-might-have-a-bad-time/"/>
+    <id>http://blog.url.com/wildcard-might-have-a-bad-time/</id>
+    <published>2014-11-15T23:46:00-08:00</published>
+    <updated>2018-02-04T16:01:27-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
