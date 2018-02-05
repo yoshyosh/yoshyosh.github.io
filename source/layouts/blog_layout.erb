@@ -14,8 +14,8 @@
   <body>
   <div class="container">
     <div id="main" role="main">
-      <span class="yosh-post-meta"><%= current_article.date.strftime('%e %b %Y') %></span>
-      <h1><%= current_article.title %></h1>
+      <span class="yosh-post-meta"><%= current_article.date.strftime('%e %b %Y') unless current_article.nil? %></span>
+      <h1><%= current_article.title unless current_article.nil? %></h1>
       <%= yield %>
     </div>
   </div>  
