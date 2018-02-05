@@ -20,7 +20,7 @@ per_page: 150
 
 <% page_articles.each_with_index do |article, i| %>
   <div class="post-item">
-    <span class="yosh-post-meta"><%= article.date.strftime('%b %e') %></span>
+    <span class="yosh-post-meta"><%= article.date.strftime('%e %b %Y') %></span>
     <h2><%= link_to article.title, article %></h2>
     <%= strip_summary article.summary(250) %>
   </div>
