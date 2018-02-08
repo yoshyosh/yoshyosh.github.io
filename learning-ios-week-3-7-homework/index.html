@@ -12,13 +12,13 @@
     <link href="/stylesheets/base.css" rel="stylesheet" />
   </head>
   <body>
-  <div class="container">
+  <div class="container dont-break-out">
     <div id="main" role="main">
       <span class="yosh-post-meta">30 Apr 2014</span>
       <h1>Learning iOS: Week 3/7 Homework</h1>
       <p>This week, we start to learn how to use custom data in our static views. Real apps will use real data, so we finally get a chance to see how things can look and feel as we get closer to dynamic data.</p>
 
-<h2>Creating Custom Cells</h2>
+<h3>Creating Custom Cells</h3>
 
 <p>This was harder than it looked (starting from scratch), but after doing it once it isn&rsquo;t so bad. 
 First you start by creating a CustomTableCell class that inherits from UITableViewCell </p>
@@ -43,7 +43,7 @@ First you start by creating a CustomTableCell class that inherits from UITableVi
     return self;
 }
 </pre></td></tr></tbody></table></code></pre></div>
-<h2>Create your TableView</h2>
+<h3>Create your TableView</h3>
 
 <p>Create a new file that is a subclass of UITableViewController. Import your CustomTableCell.h file. Create an IBOutlet from the tableview to your TableView.m file. Then Create datasource and delegate for the table</p>
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -107,7 +107,7 @@ cell.menuLabel.text = [NSString stringWithFormat:@"%@", self.menuTableItems[inde
 </pre></td></tr></tbody></table></code></pre></div>
 <p>This one is pretty hefty, but ultimately it is the data that tells the tableview what cell to use in each row. This is where we define our custom cell and tell the tableview how to use and reuse them. This is where you would tell the cell what image to use, what text for the labels, etc.</p>
 
-<h2>AFNetworking setting imageview on a cell</h2>
+<h3>AFNetworking setting imageview on a cell</h3>
 
 <p>First you need to install the AFNetworking pod. Once that is done, import into your main view controller 
 <code>#import &quot;UIImageView+AFNetworking.h&quot;</code></p>
@@ -118,7 +118,7 @@ cell.menuLabel.text = [NSString stringWithFormat:@"%@", self.menuTableItems[inde
 </pre></td></tr></tbody></table></code></pre></div>
 <p>It handles all the fetching, caching, and asynchronous requests for you!</p>
 
-<h2>Creating models and fake data</h2>
+<h3>Creating models and fake data</h3>
 
 <p>When creating models its important to think of the attributes of your model. For example if you are making a notification model, we need to know things like 
 * The type of notification * Who it was from * A short snippet of what it is * When it was done (timestamp)</p>
