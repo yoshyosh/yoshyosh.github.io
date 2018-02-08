@@ -8,7 +8,7 @@ tags:
 
 This week, we start to learn how to use custom data in our static views. Real apps will use real data, so we finally get a chance to see how things can look and feel as we get closer to dynamic data.
 
-##Creating Custom Cells
+###Creating Custom Cells
 
 This was harder than it looked (starting from scratch), but after doing it once it isn't so bad. 
 First you start by creating a CustomTableCell class that inherits from UITableViewCell 
@@ -29,7 +29,7 @@ In the CustomTableCell.m file add this line of code
 }
 ```
 
-##Create your TableView
+###Create your TableView
 
 Create a new file that is a subclass of UITableViewController. Import your CustomTableCell.h file. Create an IBOutlet from the tableview to your TableView.m file. Then Create datasource and delegate for the table
 
@@ -80,7 +80,7 @@ cell.menuLabel.text = [NSString stringWithFormat:@"%@", self.menuTableItems[inde
 
 This one is pretty hefty, but ultimately it is the data that tells the tableview what cell to use in each row. This is where we define our custom cell and tell the tableview how to use and reuse them. This is where you would tell the cell what image to use, what text for the labels, etc.
 
-##AFNetworking setting imageview on a cell
+###AFNetworking setting imageview on a cell
 
 First you need to install the AFNetworking pod. Once that is done, import into your main view controller 
 `#import "UIImageView+AFNetworking.h"`
@@ -93,7 +93,7 @@ Then you will have access to a method that can set an imageview using urls like 
 
 It handles all the fetching, caching, and asynchronous requests for you!
 
-##Creating models and fake data
+###Creating models and fake data
 
 When creating models its important to think of the attributes of your model. For example if you are making a notification model, we need to know things like 
 * The type of notification * Who it was from * A short snippet of what it is * When it was done (timestamp)

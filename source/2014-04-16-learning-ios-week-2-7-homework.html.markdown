@@ -6,7 +6,7 @@ tags:
 
 ---
 
-http://stackoverflow.com/questions/1785008/keeping-a-uibutton-selected-after-a-touch
+[http://stackoverflow.com/questions/1785008/keeping-a-uibutton-selected-after-a-touch](http://stackoverflow.com/questions/1785008/keeping-a-uibutton-selected-after-a-touch)
 
 Creating a login page 
 Detecting form field validation 
@@ -133,7 +133,7 @@ So every class object has certain delegate events. Like `UIScrollView` has a lot
 
 ##Custom Tap Events
 
-http://stackoverflow.com/questions/19218080/tap-gesture-not-recognized-on-uiimageview
+[http://stackoverflow.com/questions/19218080/tap-gesture-not-recognized-on-uiimageview](http://stackoverflow.com/questions/19218080/tap-gesture-not-recognized-on-uiimageview)
 
 Here you are creating a gesture to track, in this case tap. After you assign that gesture to be tracked on let's say a UIImage, when you tap the UIImage, then it should perform the selector you assigned to that tap.
 

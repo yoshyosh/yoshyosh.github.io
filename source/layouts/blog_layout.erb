@@ -12,7 +12,7 @@
     <%= stylesheet_link_tag "base" %>
   </head>
   <body>
-  <div class="container">
+  <div class="container dont-break-out">
     <div id="main" role="main">
       <span class="yosh-post-meta"><%= current_article.date.strftime('%e %b %Y') unless current_article.nil? %></span>
       <h1><%= current_article.title unless current_article.nil? %></h1>
